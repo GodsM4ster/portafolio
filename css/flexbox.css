@@ -1,0 +1,91 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.headerPrincipal-nav{
+    display: flex;
+}
+.title-network {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.skills-box{
+    width: 23%;
+    padding: 10px;
+}
+.hobbies-line{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.academic-courses{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+}
+.formcontato-contacto{
+    display: flex;
+    justify-content: space-around;
+}
+.formcontato-img{
+    flex-grow: 2;
+    flex-shrink: 2;
+    padding: 0 0 20px;
+}
+.formcontato-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 768px){
+	.headerPrincipal .container{
+        flex-direction: column;
+    }
+    .headerPrincipal-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-line{
+        flex-direction: column;
+    }
+    .skills-box{
+        width: 100%;
+        padding: 10px;
+    }
+    .hobbies-line{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .formcontato-contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+    .academic-courses{
+        flex-direction: column;
+    }
+    .container-projects{
+        flex-direction: column;
+    }
+    #especial{
+		width: 90%;
+	}
+}
