@@ -5,6 +5,8 @@ body {
 	width: 94%;
 	margin: 0 auto;
 }
+
+/* header */
 .headerPrincipal {
 	background-color: #FFF;
 	padding: 20px 0;
@@ -32,6 +34,8 @@ body {
     transform: scale(1.2);
 	font-weight: bold;
 }
+
+/*main*/
 .title{
 	background-color: #ebf5b8;
 }
@@ -62,6 +66,7 @@ body {
 .title-network-item:hover{
 	transform: scale(1.2);
 }
+/*sobre mi*/
 .sobremi{
 	background: linear-gradient(#ebf5b8, #c8c6c6);
 }
@@ -72,6 +77,7 @@ body {
 	text-align: center;
 	text-shadow: 2px 2px 8px #625f5f;
 }
+/*habilidades*/
 .skills{
 	background: #c8c6c6;
 }
@@ -88,6 +94,7 @@ body {
 	font-size: 1.2em;
 	padding: 10px;
 }
+/*hobbies*/
 .hobbies-title{
 	padding: 30px;
 	font-weight: bold;
@@ -104,6 +111,7 @@ body {
 	font-weight: bold;
 	font-size: 1.2em;
 }
+/*estudios*/
 .academic{
 	background: rgb(96, 90, 90);
 }
@@ -126,6 +134,7 @@ body {
 	font-weight: bold;
 	font-size: 0.8em;
 }
+/*proyectos*/
 .proyectos-title{
 	padding: 30px;
 	font-weight: bold;
@@ -145,6 +154,7 @@ body {
 .experience-description{
 	padding: 10px;
 }
+/*formulario*/
 .formcontato{
 	background: linear-gradient(rgb(244, 235, 235), rgb(12, 12, 12));
 }
@@ -170,6 +180,12 @@ body {
 	margin: 0 0 20px;
 	font-size: 15px;
 }
+.texto2{
+	font-weight: bold;
+}
+
+
+/*footer*/
 .footer{
 	background: rgb(12, 12, 12);
 }
@@ -195,9 +211,23 @@ body {
 	text-align: center;
 	text-shadow: 2px 2px 8px #625f5f;
 }
+
+/*validacion javascript*/
+.invalid{
+	border: solid 1px red;
+	box-shadow: 0 0 10px red;
+}
+.error{
+	color: rgb(246, 35, 11);
+	display: block;
+	font-weight: bold;
+}
+
+/*responsive*/
 @media (max-width: 768px){
 	.formcontato-subtext{
 		text-align: center;
+		width: 90%;
 	}
 	.formcontato-form{
 		width: 100%;
@@ -207,6 +237,7 @@ body {
 	.formcontato-boton{
 		display: block;
 	}
+	
 	#especial{
 		width: 90%;
 	}

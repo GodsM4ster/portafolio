@@ -56,6 +56,12 @@
     display: flex;
     flex-direction: column;
 }
+.etiqueta{
+    display: flex;
+    flex-direction: column;
+}
+
+/*responsive*/
 @media (max-width: 768px){
 	.headerPrincipal .container{
         flex-direction: column;
@@ -68,12 +74,15 @@
         flex-direction: column;
     }
     .skills-box{
-        width: 100%;
+        width: 95%;
         padding: 10px;
     }
     .hobbies-line{
         flex-direction: column-reverse;
         align-items: center;
+    }
+    .formcontato-esquerda{
+        width: 95%;
     }
     .formcontato-contacto{
         flex-direction: column;
@@ -88,4 +97,8 @@
     #especial{
 		width: 90%;
 	}
+    .etiqueta{
+        width: 60%;
+        margin: auto;
+    }
 }
