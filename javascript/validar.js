@@ -34,7 +34,6 @@ const validatEmailFormat = e =>{
 }
 
 userNameField.addEventListener("blur", validateEmptyField);
-email.addEventListener("blur", validateEmptyField);
 email.addEventListener("input", validatEmailFormat);
 asunto.addEventListener("blur", validateEmptyField);
 mensaje.addEventListener("blur", validateEmptyField);
